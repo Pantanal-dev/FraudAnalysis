@@ -32,9 +32,7 @@ const Body = () => {
           <p className="text-lg font-bold text-justify">
             {" "}
             {/* Add "text-justify" class */}
-            Fraud Analysis é um sistema de análise de fraudes cartão de crédito.
-            Além de classificar uma transação, a API também apresentar insights
-            que justifiquem seu processo decisório. <br></br> <br /> Sua ideia
+            Fraud Analysis é um sistema que permite a visualização de insights derivados de transações de cartões de crédito. <br></br> <br /> Sua ideia
             surgiu de {/* Add <br> for line break */}
             um desafio proposto no projeto Pantanal.dev, um projeto que busca
             valorizar desenvolvedores talentosos da região do Pantanal.{" "}

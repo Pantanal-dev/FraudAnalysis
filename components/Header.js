@@ -41,24 +41,13 @@ const Header = () => {
             backgroundColor: isActiveLink("/insights") ? "white " : "",
             borderRadius: "0.7rem",
             padding: "0.5rem 1rem",
+            
           }}
           className="text-white mx-4 font-medium text-xl font-bold hover:border-white"
         >
           Insights
         </Link>
-        <Link
-          href="/analise_transacao"
-          style={{
-            // Use the style prop to set styles directly
-            color: isActiveLink("/analise_transacao") ? "#2FBEAB" : "white",
-            backgroundColor: isActiveLink("/analise_transacao") ? "white " : "",
-            borderRadius: "0.7rem",
-            padding: "0.5rem 1rem",
-          }}
-          className="text-white mx-4 font-medium text-xl font-bold hover:border-white"
-        >
-          Análise de Transação
-        </Link>
+       
       </div>
     </header>
   );
