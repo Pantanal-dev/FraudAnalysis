@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex items-center justify-between bg-[#2FBEAB] py-4 px-8 fixed top-0 left-0 w-full z-10 shadow-md">
+    <header className="flex items-center justify-between bg-[#2FBEAB] py-2 px-8 fixed top-0 left-0 w-full z-10 shadow-md">
       <div className="flex items-center">
         <img
           src="/images/fraud_analysis_website_favicon_white.png"
