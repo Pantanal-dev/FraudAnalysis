@@ -24,8 +24,8 @@ const Header = () => {
           href="/"
           style={{
             // Use the style prop to set styles directly
-            color: isActiveLink("/") ? "#2FBEAB" : "white",
-            backgroundColor: isActiveLink("/") ? "white " : "",
+            color: isActiveLink("/") ? "#2FBEAB":"white",
+            backgroundColor: isActiveLink("/") ? "white":"",
             borderRadius: "0.7rem",
             padding: "0.5rem 1rem",
           }}
@@ -37,8 +37,8 @@ const Header = () => {
           href="/insights"
           style={{
             // Use the style prop to set styles directly
-            color: isActiveLink("/insights") ? "#2FBEAB" : "white",
-            backgroundColor: isActiveLink("/insights") ? "white " : "",
+            color: isActiveLink("/insights") ? "#2FBEAB":"white",
+            backgroundColor: isActiveLink("/insights") ? "white":"",
             borderRadius: "0.7rem",
             padding: "0.5rem 1rem",
             
