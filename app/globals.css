@@ -1,0 +1,13 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adicione as cores personalizadas do projeto */
+@tailwind colors {
+  blue: {
+    500: #007bff;
+    700: #0056b3;
+  }
+  white: #ffffff;
+}
